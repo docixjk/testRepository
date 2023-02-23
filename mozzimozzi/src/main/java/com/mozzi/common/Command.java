@@ -9,5 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 public interface Command {
 	public String exec(HttpServletRequest req, HttpServletResponse resp)//
 			throws ServletException, IOException;
+	void syso();
 
 }
